@@ -9,7 +9,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Aditya Vyas | Software Engineer",
+  title: "Aditya Vyas",
   description: "Software Engineer specializing in AI integration and real-time systems. Building the future of scalable applications.",
   keywords: ["Software Engineer", "AI", "Real-time Systems", "Next.js", "TypeScript", "Python"],
   authors: [{ name: "Aditya Vyas" }],
