@@ -13,14 +13,14 @@ const projects: Project[] = [
   {
     title: "Discord Clone",
     description: "Full-stack messaging platform with real-time video, audio, and text chat using Socket.io and WebRTC.",
-    link: "#",
+    link: "https://discord.mrpaaradox.com",
     github: "https://github.com/mrpaaradox/discord-final",
     tags: ["Next.js", "Socket.io", "Prisma", "Tailwind"],
   },
   {
     title: "AI Music Gen",
     description: "Generative AI application for creating custom audio tracks and music sequences.",
-    link: "#",
+    link: "https://ai-music.mrpaaradox.com",
     github: "https://github.com/mrpaaradox/ai-music-gen",
     tags: ["Python", "Modal", "React", "AI"],
   },
@@ -34,14 +34,14 @@ const projects: Project[] = [
   {
     title: "AI Agents Monopoly",
     description: "A simulation of the classic board game where LLM-powered agents compete and strategize.",
-    link: "#",
+    link: "https://ai-monopoly.mrpaaradox.com",
     github: "https://github.com/mrpaaradox/ai-monopoly",
     tags: ["AI", "Game Dev", "React", "GenAI"],
   },
   {
     title: "Slack Clone",
     description: "Enterprise messaging architecture with channel management and threaded conversations.",
-    link: "#",
+    link: "https://slack.adityavyas.com",
     github: "https://github.com/mrpaaradox/slack",
     tags: ["Full-stack", "Real-time", "Redux", "Tailwind"],
   },
@@ -89,6 +89,7 @@ export function ProjectsGrid() {
                 </Link>
                 <Link
                   href={project.link}
+                  target="_blank"
                   className="flex items-center gap-1 text-xs font-medium text-muted-foreground hover:text-primary transition-colors"
                 >
                   <ExternalLink className="h-3 w-3" /> Live Demo
