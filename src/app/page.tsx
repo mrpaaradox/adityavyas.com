@@ -18,13 +18,16 @@ export default function Home() {
           </div>
           
           <div className="container mx-auto px-4 text-center">
-            <div className="inline-flex items-center rounded-full border border-primary/20 bg-primary/5 px-3 py-1 text-sm font-medium mb-8 backdrop-blur-sm animate-in fade-in slide-in-from-bottom-2 duration-1000 will-change-transform">
+            <Link 
+              href="#contact"
+              className="inline-flex items-center rounded-full border border-primary/20 bg-primary/5 px-3 py-1 text-sm font-medium mb-8 backdrop-blur-sm animate-in fade-in slide-in-from-bottom-2 duration-1000 will-change-transform hover:bg-primary/10 hover:border-primary/30 transition-colors cursor-pointer"
+            >
               <span className="relative flex h-2 w-2 mr-2">
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75 will-change-[transform,opacity]" />
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-primary shadow-[0_0_8px_rgba(var(--primary),0.5)]" />
               </span>
               Available for new projects
-            </div>
+            </Link>
             
             <h1 className="text-5xl font-extrabold tracking-tighter sm:text-7xl mb-8 leading-[1.1] animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-150 flex flex-col items-center will-change-transform">
               <span className="flex flex-wrap justify-center items-center gap-x-3">
@@ -71,7 +74,7 @@ export default function Home() {
                     by curiosity and a relentless pursuit of engineering excellence.
                   </p>
                   <p>
-                    Currently, I focus on the intersection of **AI integration** and **real-time communications**. 
+                    Currently, I focus on the intersection of AI integration and real-time communications. 
                     I love tackling the challenges of distributed state management, low-latency 
                     data streaming, and creating intuitive interfaces for complex AI-driven workflows.
                   </p>
