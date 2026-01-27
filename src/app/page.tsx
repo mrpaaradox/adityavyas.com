@@ -23,8 +23,8 @@ export default function Home() {
               className="inline-flex items-center rounded-full border border-primary/20 bg-primary/5 px-3 py-1 text-sm font-medium mb-8 backdrop-blur-sm animate-in fade-in slide-in-from-bottom-2 duration-1000 will-change-transform hover:bg-primary/10 hover:border-primary/30 transition-colors cursor-pointer"
             >
               <span className="relative flex h-2 w-2 mr-2">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75 will-change-[transform,opacity]" />
-                <span className="relative inline-flex rounded-full h-2 w-2 bg-primary shadow-[0_0_8px_rgba(var(--primary),0.5)]" />
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-500 opacity-75 will-change-[transform,opacity]" />
+                <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500 shadow-[0_0_8px_rgba(34,197,94,0.5)]" />
               </span>
               Available for new projects
             </Link>
