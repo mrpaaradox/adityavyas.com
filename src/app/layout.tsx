@@ -39,8 +39,7 @@ export default function RootLayout({
       <body>
         <ThemeProvider
           attribute="class"
-          defaultTheme="light"
-          enableSystem
+          defaultTheme="dark"
           disableTransitionOnChange
         >
           <main>{children}</main>
